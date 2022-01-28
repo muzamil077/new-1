@@ -1,0 +1,220 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.logo img{
+    padding: 10px 0px 0px 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom:10px;
+}
+ul li,a{
+    list-style-type: none;
+    text-decoration: none;
+    color: hsl(0deg 0% 86%);
+    display: inline-block;
+    padding: 10px 0px 0px 0px ;
+    font-weight:600;
+    margin: 5px;
+
+}
+a:hover{
+    color:blue;
+}
+/* home section is start here */
+.home{
+    background-image: url(images/contact-banner.jpg);
+    width: 100%;
+    height: 400px;
+}
+.main-heading{
+    padding: 150px 0px 0px 100px;
+    color: white;
+    line-height: 30px;
+}
+.main-heading p{
+    font-size: 12px;
+    font-weight: normal;
+}
+.main-heading h1{
+    font-size: xx-large;
+}
+.home-btn{
+    padding: 10px;
+    width: 110px;
+    font-weight: 600;
+    background:hsl(197deg 64% 55%);
+    color:white;
+    height: 40px;
+    border-radius: 3px;
+    border-style: none;
+}
+.home-btn:hover{
+    cursor: pointer;
+}
+/* home section is end here */
+/* download section is start here */
+.download-section{
+    background-color:hsl(0deg 0% 93%);
+    height: 200px;
+    line-height: 25px;
+}
+.download-container{
+    display: grid;
+    grid-template-columns: 70% 30% ;
+}
+.content-side{
+    padding: 40px 0px 0px 100px;
+}
+.content-side p{
+    font-size: 12px;
+    font-weight: normal;
+    color:hsl(210deg 3% 49%);
+}
+.btn-side{
+    padding: 70px 0px 0px 50px;
+}
+.btn-side button{
+    padding: 12px;
+    width: 160px;
+    font-weight: 600;
+    background:hsl(197deg 64% 55%);
+    color:white;
+    border-radius: 3px;
+    border-style: none;
+
+}
+/* download section end here */
+/* features section is start here */
+.features-heading{
+    padding: 100px 0px 0px 0px;
+    text-align: center;
+    line-height: 25px;
+}
+.features-heading h1{
+    font-size: xx-large;
+}
+.features-heading p{
+    font-size: 12px;
+    font-weight: normal;
+    color: hsl(210deg 3% 55%);;
+
+}
+.Empty-box{
+    width: 100px;
+    height: 1px;
+    margin: 10px 0px 0px 630px;
+    background-color:hsl(210deg 3% 55%);
+}
+.features-container{
+    padding:40px 0px 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content-icon{
+    margin-bottom: 60px;
+}
+.ux-desigen{
+    display: flex;
+    justify-content: center;
+    line-height: 20px;
+    padding: 30px 0px 0px 0px;
+}
+.ux p{
+    font-size: 12px;
+    font-weight: normal;
+    color:hsl(210deg 3% 49%);
+}
+.icon{
+    padding: 20px 20px 0px 0px;
+    font-size: x-large;
+    color: hsl(197deg 64% 55%);
+   
+}
+/* features section is end here */
+/* multi-section is start here */
+.multi-section{
+    background-image: url(images/13.jpg);
+    height: 200px;
+}
+span{
+    color:hsl(197deg 64% 55%) ;
+}
+.multi-heading {
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    line-height: 25px;
+}
+.multi-heading h1{
+    color: white;
+}
+.multi-heading p{
+    font-size: 12px;
+    font-weight: normal;
+    color:hsl(210deg 3% 49%);
+}
+.multi-btn{
+    padding: 10px;
+    width: 130px;
+    background:hsl(197deg 64% 55%);
+    color:white;
+    border-style: none;
+    border-radius: 3px;
+}
+/* multi-section is end here */
+/* sercices-section is start here */
+.services-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px 0px 0px;
+}
+.ux-desigen-1{
+    display: flex;
+    line-height: 25px;
+}
+.ux{
+    padding: 0px 0px 0px 20px;
+    
+}
+
+/* services-section end here */
+/* work section is start here */
+.work-section{
+    background-color: hsl(0deg 0% 96%);;
+}
+.btns-closed{
+    text-align: center;
+    margin-right: 20px;
+    padding: 20px 0px 0px 0px;
+
+}
+.spn-btn button{
+    background-color: hsl(197deg 64% 55%);
+    border-style: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+}
+.btns-closed button{
+    padding: 10px;
+    width: 80px;
+    border-style: none;
+    /* background-color: hsl(0deg 0% 90%); */
+    border-radius: 3px;
+    color: black;
+    font-weight: 600;
+
+
+}
+.images-container{
+
+}
+.image-1 img{
+    width: 100px;
+    height: 100px;
+}
+/* work section is start here */
